@@ -1,0 +1,145 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "131e54e50bcfa25448039e9eca7527f9",
+    "packages": [
+        {
+            "name": "irap/core-libs",
+            "version": "1.1.45",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iRAP-software/package-core-libs.git",
+                "reference": "244871d2fbc2f3fac26ff4b98715224953d9befb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iRAP-software/package-core-libs/zipball/244871d2fbc2f3fac26ff4b98715224953d9befb",
+                "reference": "244871d2fbc2f3fac26ff4b98715224953d9befb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iRAP\\CoreLibs\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stuart Page",
+                    "role": "Developer",
+                    "email": "stuart.page@irap-dev.org",
+                    "homepage": "http://irap.org/"
+                }
+            ],
+            "description": "Core libraries for PHP 7.0+",
+            "homepage": "http://www.irap.org",
+            "keywords": [
+                "core",
+                "library"
+            ],
+            "time": "2018-08-15T11:46:14+00:00"
+        },
+        {
+            "name": "irap/multi-query",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iRAP-software/package-multi-query.git",
+                "reference": "2c57b1f91a3f21b9b029467ba682ab2cb12fffd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iRAP-software/package-multi-query/zipball/2c57b1f91a3f21b9b029467ba682ab2cb12fffd9",
+                "reference": "2c57b1f91a3f21b9b029467ba682ab2cb12fffd9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iRAP\\MultiQuery\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "none"
+            ],
+            "authors": [
+                {
+                    "name": "Stuart Page",
+                    "role": "Developer",
+                    "email": "stuart.page@irap.org",
+                    "homepage": "http://irap.org/"
+                }
+            ],
+            "description": "Wrapper object around mysqli to combine queries into one.",
+            "homepage": "http://www.irap.org/",
+            "keywords": [
+                "mysql"
+            ],
+            "time": "2018-05-04T10:42:28+00:00"
+        },
+        {
+            "name": "irap/profiling",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iRAP-software/package-profiling.git",
+                "reference": "1d4015627eff59348ad34ac9ef8d4665c4bd4786"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iRAP-software/package-profiling/zipball/1d4015627eff59348ad34ac9ef8d4665c4bd4786",
+                "reference": "1d4015627eff59348ad34ac9ef8d4665c4bd4786",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iRAP\\Profiling\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stuart Page",
+                    "role": "Developer",
+                    "email": "support@irap.org",
+                    "homepage": "http://www.irap.org/"
+                }
+            ],
+            "description": "Profiling library for PHP 5.6+",
+            "homepage": "https://github.com/iRAP-software/package-profiling",
+            "keywords": [
+                "profiling"
+            ],
+            "time": "2018-06-12T11:10:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
