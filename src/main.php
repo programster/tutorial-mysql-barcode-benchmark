@@ -20,7 +20,13 @@ define("MYSQL_PORT", 3306);
 
 function getDb() : mysqli
 {
-    $db = mysqli_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DB_NAME, MYSQL_PORT);
+    static $db = null;
+    
+    if ($db === null)
+    {
+        $db = mysqli_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DB_NAME, MYSQL_PORT);
+    }
+    
 
     if ($db === false)
     {
