@@ -25,14 +25,13 @@ function getDb() : mysqli
     if ($db === null)
     {
         $db = mysqli_connect(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DB_NAME, MYSQL_PORT);
+        
+        if ($db === false)
+        {
+            die("Failed to connect to database, check your settings.");
+        }
     }
     
-
-    if ($db === false)
-    {
-        die("Failed to connect to database, check your settings.");
-    }
-
     return $db;
 }
 
